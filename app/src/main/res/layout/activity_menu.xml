@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:background="@color/black">
+
+
+    <Button
+        android:id="@+id/Linterna"
+        android:layout_width="91dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="52dp"
+        android:text="@string/flash"
+        app:layout_constraintBottom_toTopOf="@+id/LlamarId"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Mapa"
+        android:layout_width="102dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="236dp"
+        android:text="@string/maps"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/CameraFrontal"
+        android:layout_width="149dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/camara"
+        app:layout_constraintBottom_toTopOf="@+id/Linterna"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/SOS"
+        android:layout_width="83dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="116dp"
+        android:text="@string/sos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Microfono"
+        android:layout_width="83dp"
+        android:layout_height="77dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="116dp"
+        android:text="@string/mic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/LlamarId"
+        android:layout_width="165dp"
+        android:layout_height="181dp"
+        android:layout_marginBottom="56dp"
+        android:text="@string/llamar_al_911"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Chat"
+        android:layout_width="102dp"
+        android:layout_height="82dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="236dp"
+        android:text="@string/chat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="338dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/cuando_empece_este_codigo_solo_dios_y_yo_sabiamos_que_estaba_haciendo_ahora_solo_dios_sabe"
+        android:textAlignment="center"
+        android:textColor="@color/gris"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="116dp"
+        android:text="@string/appalarma"
+        android:textColor="@color/gris"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

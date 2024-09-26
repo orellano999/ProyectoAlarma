@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ProyectoAlarma</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="start_capture">Start Capture</string>
+    <string name="stop_capture">Stop Capture</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="estado_de_la_base_de_datos">ESTADO DE LA BASE DE DATOS</string>
+    <string name="CambiarCamara">CambiarCamara</string>
+    <string name="conversar">Conversar</string>
+    <string name="enviar_ubicacion">Enviar Ubicacion</string>
+    <string name="textview">TextView</string>
+    <string name="detener">Detener</string>
+    <string name="reproducir">Reproducir</string>
+    <string name="grabar">Grabar</string>
+    <string name="grabadora">Grabadora</string>
+    <string name="compartiendo_ubicacion_en_tiempo_real">Compartiendo Ubicacion En tiempo Real</string>
+    <string name="longitud">Longitud</string>
+    <string name="latitud">Latitud</string>
+    <string name="ubicacion">Ubicacion</string>
+    <string name="flash">Flash</string>
+    <string name="maps">Maps</string>
+    <string name="camara">Camara</string>
+    <string name="sos">SOS</string>
+    <string name="mic">Mic</string>
+    <string name="llamar_al_911">LLamar al 911</string>
+    <string name="chat">Chat</string>
+    <string name="cuando_empece_este_codigo_solo_dios_y_yo_sabiamos_que_estaba_haciendo_ahora_solo_dios_sabe">Cuando empece este codigo solo dios y yo sabiamos que estaba haciendo... Ahora solo dios sabe</string>
+    <string name="appalarma">AppAlarma</string>
+    <string name="subir">SUBIR</string>
+</resources>

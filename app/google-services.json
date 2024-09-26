@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "709521773601",
+    "firebase_url": "https://protectoemergen-default-rtdb.firebaseio.com",
+    "project_id": "protectoemergen",
+    "storage_bucket": "protectoemergen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709521773601:android:b41a0b60b94bb64a8bff60",
+        "android_client_info": {
+          "package_name": "com.example.proyectoalarma"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBklq02Aex_UPXvtYJJCgpf0h5YKSvjRoU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
