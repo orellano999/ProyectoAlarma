@@ -1,11 +1,7 @@
 package com.example.proyectoalarma.sampledata
 
-import android.Manifest
 import android.content.Context
-import android.content.Intent
 import android.content.pm.PackageManager
-import android.location.Location
-import android.location.LocationManager
 import android.media.AudioManager
 import android.media.MediaPlayer
 import android.media.MediaRecorder
@@ -13,31 +9,19 @@ import android.net.ConnectivityManager
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
-import android.widget.Button
 import android.widget.Toast
 import androidx.activity.OnBackPressedCallback
-import androidx.activity.enableEdgeToEdge
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-import com.example.proyectoalarma.R
 import com.example.proyectoalarma.databinding.ActivityGrabadoraBinding
-import com.example.proyectoalarma.databinding.ActivityLlamadaBinding
 import com.example.proyectoalarma.sampledata.CameraActivity.Companion.REQUEST_CODE_PERMISSIONS
 import com.example.proyectoalarma.sampledata.CameraActivity.Companion.REQUIRED_PERMISSIONS
-import com.google.android.gms.location.LocationServices
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.storage.FirebaseStorage
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.delay
-import kotlinx.coroutines.launch
 import java.io.File
-import java.util.UUID
 
 class Grabadora : AppCompatActivity() {
     lateinit var mr: MediaRecorder

@@ -1,20 +1,18 @@
 package com.example.proyectoalarma
 
-import android.Manifest
 import android.content.Intent
-import android.content.pm.PackageManager
-import android.net.Uri
 import android.os.Bundle
-import android.view.accessibility.AccessibilityEvent
 import android.widget.Button
-import android.widget.Toast
 import androidx.activity.OnBackPressedCallback
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.app.ActivityCompat
-import androidx.core.content.ContextCompat
 import com.example.proyectoalarma.databinding.ActivityMenuBinding
-import com.example.proyectoalarma.sampledata.*
+import com.example.proyectoalarma.sampledata.CameraActivity
+import com.example.proyectoalarma.sampledata.Chat
+import com.example.proyectoalarma.sampledata.FlashLight
+import com.example.proyectoalarma.sampledata.Grabadora
+import com.example.proyectoalarma.sampledata.LLamada
+import com.example.proyectoalarma.sampledata.Mapa
 
 
 class MenuActivity : AppCompatActivity() {

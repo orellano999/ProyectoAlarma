@@ -1,23 +1,18 @@
 package com.example.proyectoalarma.sampledata
 
 
+import android.Manifest
+import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.location.Location
+import android.location.LocationManager
 import android.net.Uri
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
-import android.Manifest
-import android.annotation.SuppressLint
-import android.content.Context
-import android.location.LocationManager
-import android.widget.Toast
-import androidx.activity.OnBackPressedCallback
-import androidx.core.content.ContextCompat
 import com.example.proyectoalarma.databinding.ActivityMapaBinding
-import com.example.proyectoalarma.sampledata.CameraActivity.Companion.REQUEST_CODE_PERMISSIONS
-import com.example.proyectoalarma.sampledata.CameraActivity.Companion.REQUIRED_PERMISSIONS
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 
